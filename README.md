@@ -8,7 +8,9 @@ Word list sourced from [cfreshman's Wordle word list gist](https://gist.github.c
 I modified this list to create a new refined txt file that removed all words with repeat letters for my purposes (wordle_words_no_repeats.py).
 
 ## Methods
-...
+* String validation
+* Guess evaluation
+* Function testing
 
 ## Files
 - `my_module/` - folder with all files besides Jupyter notebook
