@@ -15,7 +15,7 @@ I modified this list to create a new refined txt file that removed all words wit
   - `wordle_words/` - folder for txt files with Wordle words, original and revised
     - `wordle_words.txt` - original word list sourced from [cfreshman's Wordle word list gist](https://gist.github.com/cfreshman/a03ef2cba789d8cf00c08f767e0fad7b)
     - `wordle_words_no_repeats.txt` - revised word list without words that have repeat letters
-  - `functions.py` - functions that make the game run: 4 that work together to grade a guess + 4 that make the game interface actually run
-  - `test_functions.py` - tested 3 functions from functions file. was actually the first step of my project, to see how i wanted my game to output and then writing the code that actually got me that output. only 3 were tested because that was the class criteria.
+  - `functions.py` - functions that make the game run: 4 that grade a guess + 4 for the game interface
+  - `test_functions.py` - tested 3 functions from functions file
   - `wordle_words_no_repeats.py` - code used to filter out the words with repeat letters
-- `wordle_clone.ipnyb` - Jupyter notebook where you play the game.
+- `wordle_clone.ipnyb` - Jupyter notebook where you play the game
